@@ -3,10 +3,18 @@ package project2Class2;
 public class MyProjectInClass {
     public static void main(String[] args) {
         System.out.println("Hello My world");
+<<<<<<< HEAD
         System.out.println(add(3));
     }
     
     public static int add(int x){
         return x + 3;
+=======
+        System.out.println(add(4));
+    }
+    
+    private static int add(int x){
+        return x + 4;
+>>>>>>> checkC
     }
 }
